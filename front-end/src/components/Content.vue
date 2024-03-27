@@ -1,7 +1,7 @@
 <template>
   <div id="Content">
     <el-dialog
-      title="AI预测中"
+      title="predict"
       :visible.sync="dialogTableVisible"
       :show-close="false"
       :close-on-press-escape="false"
@@ -345,7 +345,7 @@ export default {
   flex-wrap: wrap;
   justify-content: center;
   margin: 0 auto;
-  margin-right: 0px;
+  margin-right: 33px;
   max-width: 1800px;
 }
 
@@ -469,7 +469,7 @@ div {
 }
 
 #Content {
-  width: 85%;
+  width: 100%;
   height: 800px;
   background-color: #ffffff;
   margin: 15px auto;
